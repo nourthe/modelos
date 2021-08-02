@@ -14,7 +14,8 @@
   dia_inicio: 9 de agosto
   dia_fin: 29 de octubre
   dia_fin_final: 5 de noviembre
-  links: id: 278
+  links:
+    id: 278
     fn: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16485
     sc: https://campus.aprenderenred.com.ar/mod/chat/view.php?id=16487
     fc: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16486
