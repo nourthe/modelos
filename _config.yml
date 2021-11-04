@@ -7,4 +7,4 @@ color_scheme: "dark"
 baseurl: "/modelos" # Now in bash you have to do: bundle exec jekyll serve --baseurl ''
 
 curso-actividad-practica: false
-dia_aval: 14 de junio
+dia_aval: 13 de diciembre
