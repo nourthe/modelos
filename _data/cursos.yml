@@ -1,6 +1,62 @@
 - nombre: Gestión y análisis de datos utilizando Microsoft Excel
   nombre_corto: EXGAD
   id: 18
+  edicion: 2202
+  admin: Lorena
+  profe: Mariano
+  profe_completo: Mariano Podstawek
+  correo: mariano.podstawek@gmail.com
+  dia_chat: lunes a las 15 hs
+  nota: |
+    No hay \'Lecturas\' como suele haber en los cursos de Aprender en Red.
+    Hay \'Lecciones\' que pueden ser entre 1 y 4 por semana.
+    Por eso los enlaces de \"Lecturas\" de los modelos no van a tener links.
+  dia_inicio: 14 de febrero
+  dia_fin: 29 de abril
+  dia_fin_final: 6 de mayo
+  links:
+    id: 313
+    fn: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18731
+    sc: https://campus.aprenderenred.com.ar/mod/chat/view.php?id=18733
+    fc: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18732
+    av: https://campus.aprenderenred.com.ar/mod/assign/view.php?id=18735
+    seg: 
+  modulos:
+    m0:
+      cg: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=
+      pre: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=
+    m1:
+      nombre: Gestión de Datos
+      c1: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=18743
+      f1: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18742
+      l1: 
+      l2: 
+      l3: 
+      l4: 
+    m2:
+      nombre: Operaciones y vinculación de Datos
+      c2: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=18773
+      f2: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18774
+      l1: 
+      l2: 
+      l3: 
+      l4: 
+    m3:
+      nombre: Representación de datos y obtención de conclusiones
+      c3: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=18795
+      f3: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18796
+      l1: 
+      l2: 
+      l3: 
+      l4: 
+    mf:
+      cer: https://campus.aprenderenred.com.ar/mod/customcert/view.php?id=18818
+      ff: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=18816
+      enc: https://campus.aprenderenred.com.ar/mod/feedback/view.php?id=18817
+
+- nombre: Gestión y análisis de datos utilizando Microsoft Excel
+  nombre_corto: EXGAD
+  id: 18
   edicion: 2111
   admin: Lorena
   profe: Damián y Mariano
@@ -53,59 +109,3 @@
       cer: https://campus.aprenderenred.com.ar/mod/customcert/view.php?id=17283
       ff: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=17281
       enc: https://campus.aprenderenred.com.ar/mod/feedback/view.php?id=17282
-
-- nombre: Gestión y análisis de datos utilizando Microsoft Excel
-  nombre_corto: EXGAD
-  id: 18
-  edicion: 2108
-  admin: Lorena
-  profe: Damián y Marcelo
-  profe_completo: Damián Lopez y Marcelo Podstawek
-  correo: damian.lopez@fundacioncarbonell.org , mariano.podstawek@gmail.com
-  dia_chat: 
-  nota: |
-    No hay \'Lecturas\' como suele haber en los cursos de Aprender en Red.
-    Hay \'Lecciones\' que pueden ser entre 1 y 4 por semana.
-    Por eso los enlaces de \"Lecturas\" de los modelos no van a tener links.
-  dia_inicio: 9 de agosto
-  dia_fin: 29 de octubre
-  dia_fin_final: 5 de noviembre
-  links:
-    id: 278
-    fn: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16485
-    sc: https://campus.aprenderenred.com.ar/mod/chat/view.php?id=16487
-    fc: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16486
-    av: https://campus.aprenderenred.com.ar/mod/assign/view.php?id=16489
-    seg: a
-  modulos:
-    m0:
-      cg: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=16491
-      pre: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=16490
-    m1:
-      nombre: Gestión de Datos
-      c1: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=16497
-      f1: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16496
-      l1: 
-      l2: 
-      l3: 
-      l4: 
-    m2:
-      nombre: Operaciones y vinculación de Datos
-      c2: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=16527
-      f2: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16528
-      l1: 
-      l2: 
-      l3: 
-      l4: 
-    m3:
-      nombre: Representación de datos y obtención de conclusiones
-      c3: https://campus.aprenderenred.com.ar/mod/resource/view.php?id=16548
-      f3: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16549
-      l1: 
-      l2: 
-      l3: 
-      l4: 
-    mf:
-      cer: https://campus.aprenderenred.com.ar/mod/customcert/view.php?id=16571
-      ff: https://campus.aprenderenred.com.ar/mod/forum/view.php?id=16569
-      enc: https://campus.aprenderenred.com.ar/mod/feedback/view.php?id=16570
