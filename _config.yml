@@ -1,7 +1,7 @@
 title: Modelos
 encoding: UTF-8
 theme: "just-the-docs"
-color_scheme: "dark"
+color_scheme: "light"
 
 baseurl: "/modelos" # Now in bash you have to do: bundle exec jekyll serve --baseurl ''
 
