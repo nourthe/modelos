@@ -7,3 +7,6 @@ vendor/
 
 # VIM
 tags
+
+# PSQL database
+/data

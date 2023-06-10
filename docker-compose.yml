@@ -1,0 +1,69 @@
+version: '3'
+services:
+  modelos-bo-database:
+    container_name: modelos-bo-database
+    image: postgis/postgis:13-master
+    # Required when running on platform other than amd64, like Apple M1/M2:
+    # platform: linux/amd64
+    volumes:
+      - ./data/modelos-bo-database:/var/lib/postgresql/data
+    networks:
+      - modelos-bo-directus
+    environment:
+      POSTGRES_USER: 'directus'
+      POSTGRES_PASSWORD: 'directus'
+      POSTGRES_DB: 'directus'
+    restart: unless-stopped
+
+  modelos-bo-cache:
+    container_name: modelos-bo-cache
+    image: redis:6
+    networks:
+      - modelos-bo-directus
+    restart: unless-stopped
+
+  modelos-bo-directus:
+    container_name: modelos-bo-directus
+    image: directus/directus:latest
+    ports:
+      - 5355:8055
+    volumes:
+      # By default, uploads are stored in /directus/uploads
+      # Always make sure your volumes matches the storage root when using
+      # local driver
+      - ./uploads:/directus/uploads
+      # Make sure to also mount the volume when using SQLite
+      # - ./modelos-bo-database:/directus/modelos-bo-database
+      # If you want to load extensions from the host
+      # - ./extensions:/directus/extensions
+    networks:
+      - modelos-bo-directus
+    depends_on:
+      - modelos-bo-cache
+      - modelos-bo-database
+    restart: unless-stopped
+    environment:
+      KEY: '255d861b-5ea1-5996-9aa3-922530ec40b1'
+      SECRET: '6116487b-cda1-52c2-b5b5-c8022c45e263'
+
+      DB_CLIENT: 'pg'
+      DB_HOST: 'modelos-bo-database'
+      DB_PORT: '5432'
+      DB_DATABASE: 'directus'
+      DB_USER: 'directus'
+      DB_PASSWORD: 'directus'
+
+      CACHE_ENABLED: 'true'
+      CACHE_STORE: 'redis'
+      CACHE_REDIS: 'redis://modelos-bo-cache:6379'
+
+      ADMIN_EMAIL: 'nahuelourthe1996@gmail.com'
+      ADMIN_PASSWORD: '53848345'
+
+      # Make sure to set this in production
+      # (see https://docs.directus.io/self-hosted/config-options#general)
+      PUBLIC_URL: 'https://nourthe.ar/m/modelos/bo/'
+
+networks:
+  modelos-bo-directus:
+
